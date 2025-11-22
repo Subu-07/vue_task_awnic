@@ -16,7 +16,7 @@ import {
   ChevronRight,
 } from 'lucide-vue-next'
 
-// --- Import Refactored Components (Assuming these are responsive) ---
+
 import { Button } from '@/components/ui/button'
 import { Slider } from '@/components/ui/slider'
 import InsuranceOption from './components/InsuranceOption.vue'
@@ -38,7 +38,7 @@ const handleSliderChange = (value?: number[] | undefined) => {
 
 const formattedPremium = computed(() => premium.value.toLocaleString())
 
-// Fallback logic for the logo image
+
 const logoError = ref(false)
 const handleLogoError = () => {
   logoError.value = true
