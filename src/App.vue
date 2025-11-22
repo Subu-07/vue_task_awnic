@@ -63,18 +63,18 @@ const handleLogoError = () => {
     <main class="mx-auto max-w-7xl px-4 sm:px-6 py-6 sm:py-8">
       <div class="flex flex-col lg:flex-row lg:gap-12">
         <div class="grow">
-          <div class="mb-6 sm:mb-8">
+          <div class="mb-6 sm:mb-8 ">
             <h1 class="mb-2 text-xl sm:text-2xl md:text-3xl font-bold text-foreground leading-snug">
-              We'll help you Pick Your Premium so you get the right protection at the right price.
+              We'll help you Pick Your Premium so you get the right <br>protection at the right price.
             </h1>
             <p class="text-sm sm:text-base text-muted-foreground">
               Adjust the premium with the slider to review the policy inclusions.
             </p>
           </div>
 
-          <div class="mb-6 sm:mb-8 rounded-xl sm:rounded-2xl bg-card p-4 sm:p-6 shadow-md border border-border">
+          <div class="mb-6 sm:mb-8 rounded-xl sm:rounded-2xl bg-card p-4 sm:p-6 ">
             <div class="mb-4 sm:mb-6 text-center">
-              <div class="text-2xl md:text-3xl font-extrabold text-foreground">
+              <div class="text-2xl md:text-3xl font-bold text-foreground">
                 AED {{ formattedPremium }}
               </div>
               <div class="text-xs uppercase tracking-wide text-primary mt-0.5">
@@ -119,7 +119,7 @@ const handleLogoError = () => {
             </div>
           </div>
 
-          <div class="rounded-xl sm:rounded-2xl bg-card p-4 sm:p-6 shadow-md border border-border">
+          <div class="rounded-xl sm:rounded-2xl bg-card p-4 sm:p-6 ">
             <div class="grid gap-4 md:grid-cols-2">
               <div class="space-y-4">
                 <InsuranceOption

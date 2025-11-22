@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { defineProps, computed } from 'vue';
-// Assuming 'Button' is a custom component, similar to the React example's "@/components/ui/button"
+
 import { Button } from '@/components/ui/button';
-// Assuming 'Info' is an imported icon component (e.g., from 'lucide-vue-next')
+
 import { Info } from 'lucide-vue-next';
 
 // 1. Define Props
@@ -69,7 +69,7 @@ const handleAction = () => {
         size="lg"
         @click="handleAction"
         :disabled="props.disabled && props.hasAdd"
-        class="rounded-lg "
+        class="rounded-full "
       >
         {{ props.hasAdd ? 'Add' : 'Edit' }}
       </Button>
