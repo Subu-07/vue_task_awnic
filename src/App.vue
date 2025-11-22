@@ -51,9 +51,9 @@ const handleLogoError = () => {
       <div class="mx-auto max-w-7xl">
         <img
           v-if="!logoError"
-          src="https://www.alwathbainsurance.ae/assets/images/logo.svg"
+          src="https://awnic.com/logo.svg"
           alt="Al Wathba Insurance"
-          class="h-10 sm:h-12"
+          class="h-10 sm:h-12 -primary"
           @error="handleLogoError"
         />
         <div v-else class="text-xl sm:text-2xl font-bold text-primary">AL WATHBA INSURANCE</div>

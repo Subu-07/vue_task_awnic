@@ -65,10 +65,11 @@ const handleAction = () => {
 
     <div>
       <Button
-        variant="outline-muted"
-        size="sm"
+        variant="outline"
+        size="lg"
         @click="handleAction"
         :disabled="props.disabled && props.hasAdd"
+        class="rounded-lg "
       >
         {{ props.hasAdd ? 'Add' : 'Edit' }}
       </Button>
